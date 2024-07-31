@@ -1,0 +1,7 @@
+1- l'annotation @overide indique une méthode qui est redéfinie d'une classe ou d'un interface
+
+2- On  a souvent besoin de redéfinir equals et hashcode pour que la comparaison des objets soit correct.
+
+3- Un polymorphisme statique c'est une méthodes qui permet que deux méthodes peuvent avoir le même nom mais 
+des signatures différents dans une même classe. 
+exemple: 
