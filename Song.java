@@ -1,25 +1,26 @@
 package com.musical;
 
-import java.util.Set;
+import java.util.List;
 
 public class Song {
     private int id;
     private String title;
     private int duration;
-    private Set<String> genre;
+    private List<String> genre;
 
-    public Song (int id, String title, int duration, Set<String> genre){
+    public Song (int id, String title, int duration, List<String> genre){
         this.id = id;
         this.title = title;
         this.duration = duration;
         this.genre = genre;
     }
 
-    public static void add(Song chanson) {
+    public static void add(Song chansons) {
+        return ;
     }
 
     public int getId() {
-        return 0;
+        return id;
     }
     public String getTitle() {
         return title;
@@ -27,7 +28,7 @@ public class Song {
     public int getDuration() {
         return duration;
     }
-    public Set<String> getGenre() {
+    public List<String> getGenre() {
         return genre;
     }
 
@@ -43,7 +44,7 @@ public class Song {
         this.duration = duration;
     }
 
-    public void setGenre(Set<String> genre) {
+    public void setGenre(List<String> genre) {
         this.genre = genre;
     }
 }
